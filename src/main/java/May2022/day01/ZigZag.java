@@ -1,5 +1,7 @@
 package May2022.day01;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -49,4 +51,32 @@ public class ZigZag {
         }
         return result.toString();
     }
+
+    //优化后代码
+    public String convert02(String s, int numRows) {
+        if (numRows < 2) {
+            return s;
+        }
+        List<StringBuilder> list = new ArrayList<>();
+        int flag = -1;
+        int index = 0;
+        for (int i = 0; i < numRows; i++) {
+            list.add(new StringBuilder());
+        }
+        for (char c : s.toCharArray()) {
+            list.get(index).append(c);
+            if(index == 0 || index == numRows - 1) {
+                flag = -flag;
+            }
+            index = index + flag;
+        }
+        StringBuilder result = new StringBuilder();
+        for (StringBuilder stringBuilder : list) {
+            result.append(stringBuilder);
+        }
+        return result.toString();
+    }
+    /**
+     * 模拟z字形，index先增后减，循环往复
+     */
 }
