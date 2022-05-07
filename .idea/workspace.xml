@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a35a6811-ddf8-4175-afa1-df39825f0241" name="Changes" comment="优化">
-      <change afterPath="$PROJECT_DIR$/src/main/java/May2022/day02/NextPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/May2022/day02/Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/May2022/day01/ZigZag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/May2022/day01/ZigZag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651823059822</updated>
-      <workItem from="1651823063080" duration="12572000" />
+      <workItem from="1651823063080" duration="12910000" />
     </task>
     <servers />
   </component>
